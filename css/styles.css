@@ -61,6 +61,11 @@
 .navigation-menu {
   display: flex;
 }
+
+.header {
+  border: 1px solid #ececec;
+}
+
 .header .menu {
   display: flex;
   align-items: center;
