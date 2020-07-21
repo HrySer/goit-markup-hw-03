@@ -3,279 +3,320 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title lang="en">Web Studio</title>
+    <title>Портфолио</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/normalize.css" />
   </head>
-  <body class="body">
-    <!--Шапка сайта-->
-    <header class="header">
-      <div class="menu container">
-        <nav class="navigation-list">
-          <a class="logo link" href="./index.html" lang="en">
-            <span class="logo-word">Web</span> Studio
-          </a>
-          <ul class="navigation-menu list">
-            <li class="navigation-item">
-              <a class="navigation-item-link link" href="./index.html"
-                >Студия</a
-              >
+
+  <body>
+    <!-- Header -->
+
+    <header class="page-header">
+      <div class="container main-nav">
+        <nav class="main-nav">
+          <a href="./index.html" lang="en" class="logo"
+            >Web <span class="primary-color">Studio</span></a
+          >
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link">Студия</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-item-link link" href="./portfolio.html"
-                >Портфолио</a
-              >
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-item-link link" href="">Контакты</a>
-            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="header-address-menu link list">
-          <li class="header-address-item">
-            <address>
-              <a class="header-address link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </address>
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" lang="en" class="link">
+              <span class="link-icon"></span>info@devstudio.com</a
+            >
           </li>
-          <li class="header-address-item">
-            <address>
-              <a class="header-address link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </address>
+          <li class="item">
+            <a href="tel:+380961111111" class="link"
+              ><span class="link-icon"></span>+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
 
-    <!--Главный контейнер-->
-    <main>
-      <h1 hidden>Работы</h1>
-      <section>
-        <ul class="main-btn list">
-          <li class="main-btn-item"><span class="main-btn-text">Все</span></li>
-          <li class="main-btn-item">
-            <span class="main-btn-text">Веб-сайты</span>
-          </li>
-          <li class="main-btn-item">
-            <span class="main-btn-text">Приложения</span>
-          </li>
-          <li class="main-btn-item">
-            <span class="main-btn-text">Дизайн</span>
-          </li>
-          <li class="main-btn-item">
-            <span class="main-btn-text">Маркетинг</span>
-          </li>
-        </ul>
-        <ul class="works list container">
-          <li class="work-item">
-            <a class="work-item-link link" href=""
-              ><img class="img" src="./images/port1.jpg" alt="" />
-              <h2 class="work-item-title">
-                Технокряк
-              </h2>
-              <p class="work-item-desc">
-                Веб-сайт
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href=""
-              ><img class="img" src="./images/port2.jpg" alt="" />
-              <h2 class="work-item-title">
-                Постер <span lang="en">New Orlean vs Golden Star</span>
-              </h2>
-              <p class="work-item-desc">
-                Дизайн
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href="">
-              <img class="img" src="./images/port3.jpg" alt="" />
-              <h2 class="work-item-title">
-                Ресторан <span lang="en">Seafood</span>
-              </h2>
-              <p class="work-item-desc">
-                Приложение
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href=""
-              ><img class="img" src="./images/port4.jpg" alt="" />
-              <h2 class="work-item-title">
-                Проект <span lang="en">Prime</span>
-              </h2>
-              <p class="work-item-desc">
-                Маркетинг
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href=""
-              ><img class="img" src="./images/port5.jpg" alt="" />
-              <h2 class="work-item-title">
-                Проект <span lang="en">Boxes</span>
-              </h2>
-              <p class="work-item-desc">
-                Приложение
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href="">
-              <img class="img" src="./images/port6.jpg" alt="" />
-              <h2 class="work-item-title" lang="en">
-                Inspiration has no Borders
-              </h2>
-              <p class="work-item-desc">
-                Веб-сайт
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href=""
-              ><img class="img" src="./images/port7.jpg" alt="" />
-              <h2 class="work-item-title">
-                Издание <span lang="en">Limited Edition</span>
-              </h2>
-              <p class="work-item-desc">
-                Дизайн
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href="">
-              <img class="img" src="./images/port8.jpg" alt="" />
-              <h2 class="work-item-title">Проект <span lang="en">LAB</span></h2>
-              <p class="work-item-desc">
-                Маркетинг
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="work-item">
-            <a class="work-item-link link" href="">
-              <img class="img" src="./images/port9.jpg" alt="" />
-              <h2 class="work-item-title" lang="en">
-                Growing Business
-              </h2>
-              <p class="work-item-desc">
-                Приложение
-              </p>
-              <p class="work-item-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
+    <main class="page-main">
+      <!-- Portfolio -->
 
-    <!--Подвал-->
-    <footer class="footer">
-      <div class="footer-item container">
-        <div class="footer-nav">
-          <a class="footer-logo link" href="./index.html" lang="en">
-            <span class="logo-word">Web</span> Studio
-          </a>
-          <ul class="footer-address list">
-            <li>
-              <address>
-                <a
-                  class="footer-address-loc link"
-                  href="https://goo.gl/maps/HoH5Uruk6UYNpwuC6"
-                  target="blank"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </address>
+      <section class="section">
+        <div class="container">
+          <h1 hidden>Портфолио</h1>
+          <ul class="filter-list list">
+            <li class="item">
+              <button type="button" class="button filter">Все</button>
             </li>
-            <li class="footer-address-item">
-              <address>
-                <a class="footer-address-link link" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </address>
+            <li class="item">
+              <button type="button" class="button filter">Веб-сайты</button>
             </li>
-            <li class="footer-address-item">
-              <address>
-                <a
-                  class="footer-address-link link"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </address>
+            <li class="item">
+              <button type="button" class="button filter">Приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button filter">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button filter">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="portfolio-list list">
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port1.jpg"
+                  alt="Ноутбук с сайтом на экране"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">Технокряк</h3>
+                  <p class="text">Веб-сайт</p>
+                </div>
+                <p class="hover-text">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port2.jpg"
+                  alt="Баскетболисты в прыжке"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h3>
+                  <p class="text">Дизайн</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore, quaerat, sunt, qui non esse deleniti a quasi
+                  facilis ipsa modi quis magnam ipsum illum.
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port3.jpg"
+                  alt="Логотип ресторана с рыбой"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
+                  <p class="text">Приложение</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port4.jpg"
+                  alt="Наушники"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">Проект <span lang="en">Prime</span></h3>
+                  <p class="text">Маркетинг</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port5.jpg"
+                  alt="Две коробки разных цветов"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">Проект <span lang="en">Boxes</span></h3>
+                  <p class="text">Приложение</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port6.jpg"
+                  alt="Компьютер Apple iMac"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 lang="en" class="title">Inspiration has no Borders</h3>
+                  <p class="text">Веб-сайт</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port7.jpg"
+                  alt="Открытый журнал с картинками"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h3>
+                  <p class="text">Дизайн</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port8.jpg"
+                  alt="Этикетка с надписью"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 class="title">Проект <span lang="en">LAB</span></h3>
+                  <p class="text">Маркетинг</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
+            </li>
+            <li class="item">
+              <a href="" class="link"
+                ><img
+                  class="image"
+                  src="./images/port9.jpg"
+                  alt="Печатает на ноутбуке"
+                  width="370"
+                  height="294"
+                />
+                <div class="text-wrapper">
+                  <h3 lang="en" class="title">Growing Business</h3>
+                  <p class="text">Приложение</p>
+                </div>
+                <p class="hover-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Excepturi nostrum porro illum, quas, earum facilis debitis
+                  nisi culpa distinctio laborum, sed aliquid dicta consequuntur?
+                </p></a
+              >
             </li>
           </ul>
         </div>
-        <div class="forget">
-          <b class="text">присоединяйтесь</b>
-          <ul class="social-icon list">
-            <li class="social-icon-item">
-              <a class="social-icon-item-link" href=""
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="contacts">
+          <a href="./index.html" lang="en" class="logo"
+            >Web <span class="secondary-color">Studio</span></a
+          >
+          <ul class="footer-list list">
+            <li class="item">
+              <a class="link" href="https://goo.gl/maps/2AdMaQLh5SNtWvxw7">
+                <address>
+                  <span class="google-map">
+                    г. Киев, пр-т Леси Украинки, 26</span
+                  >
+                </address>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="mailto:info@example.com">
+                <address>
+                  <span class="contacts-text">info@example.com</span>
+                </address>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="tel:+380991111111">
+                <address>
+                  <span class="contacts-text">+38 099 111 11 11</span>
+                </address>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="call-to-action">
+          <b class="sub-title">Присоединяйтесь</b>
+          <ul class="social-list list">
+            <li class="item">
+              <a class="social-wrapper" href="" aria-label="инстаграм"
                 ><img src="./images/instagram.svg" alt="иконка инстаграм"
               /></a>
             </li>
-            <li class="social-icon-item">
-              <a class="social-icon-item-link" href=""
+            <li class="item">
+              <a class="social-wrapper" href="" aria-label="твиттер"
                 ><img src="./images/twitter.svg" alt="иконка твиттер"
               /></a>
             </li>
-            <li class="social-icon-item">
-              <a class="social-icon-item-link" href=""
-                ><img src="./images/facebook.svg" alt="иконка фэйсбук"
+            <li class="item">
+              <a class="social-wrapper" href="" aria-label="фейсбук"
+                ><img src="./images/facebook.svg" alt="иконка фейсбук"
               /></a>
             </li>
-            <li>
-              <a class="social-icon-item-link" href=""
+            <li class="item">
+              <a class="social-wrapper" href="" aria-label="линкедин"
                 ><img src="./images/linkedin.svg" alt="иконка линкедин"
               /></a>
             </li>
